@@ -30,8 +30,23 @@ body{
     .box{
      margin-left:10px ;margin-right: 10px;height: 300px;width: 460px;margin: auto;
     }
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:801px) {
        .intro{
            display: flex;
        }
-    }
+    }/*computer 800px for mac 800x600 */
+    @media screen and (min-width:319px) and (max-width:801px){
+        .box{
+            max-width: 100%;
+
+        }
+        div img{
+            max-width: 100%;
+        }
+     }/*ipad*/
+     @media screen and (min-width:0px) and (max-width:319px){
+        div img{
+            width: auto;
+        }
+     }/*iphone*/
+     
