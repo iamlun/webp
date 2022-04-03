@@ -1,0 +1,23 @@
+body{
+    font-size:20px;font-family:"微軟正黑體";background-color: rgb(7, 145, 83);
+    color: rgb(240, 204, 59);
+}
+.header{
+    text-align: center;
+}
+.type{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.note {
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(170, 20, 20);
+}
+.note ul{
+    display: inline-block;
+}
+input{
+    width: 90%;
+}
