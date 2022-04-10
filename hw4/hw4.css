@@ -1,0 +1,28 @@
+body{
+    font-size:20px;font-family:"微軟正黑體";background-color: rgb(7, 145, 83);
+    color: rgb(240, 204, 59);
+}
+.race{
+    height: 60px;border-color: rgb(238, 207, 8);border-style: dashed;padding: 10px;
+}
+form{
+    padding: 25px;display: flex;justify-content: center;
+}
+input{
+    width: 85%;padding: 5px;text-align: center;font-size:20px;
+}
+img{
+    width: 50px;height: 50px; 
+}
+.header{
+    text-align: center;
+}
+#img1{
+    display: flex;justify-content: center;
+}
+#img2{
+    display: flex;justify-content: center;margin-bottom: 10px;
+}
+ .race img{
+    position:relative;
+}
