@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 body{
-    font-size:20px;font-family:"微軟正黑體";background-color:rgb(232, 181, 247);
+    font-size:20px;font-family:"Quicksand";background-color:rgb(232, 181, 247);
     color:rgb(85, 62, 106);justify-content: center;padding: 20px;text-align: center;
 }
 .arrow {
