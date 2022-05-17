@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+/* component理論上不該設置position 但為了版面就設一下 */
+.login{
+  width: 250px;
+  height: 250px;
+  border: 2px solid;
+  border-color: #f1356d;
+  margin-left: 200px;
+  margin-top: 200px;
+
+}
+.login_title{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.login_form{
+  margin-top: 50px;
+}
+.login_name{
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 12px;
+}
+.login_password{
+  margin-top: 18px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 12px;
+}
+.login_btn{
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 60px;
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.login_btn:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  color:#f1356d;
+  background:#fff;
+}
