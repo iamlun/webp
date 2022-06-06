@@ -1,0 +1,56 @@
+.todolist_wrapper{
+    position: absolute;
+    top: 50px;
+    left:600px;
+    
+}
+.todolist_title{
+    margin-left: 140px;
+    font-size: 25px;
+    color: rgb(17, 232, 135);
+}
+.todolist_input{
+    padding: 5px;
+    border: 1px solid rgb(71, 241, 41);
+    border-radius: 8px;
+    background-color: rgb(195, 245, 218);
+    width: 328px;
+    margin-left: 25px;
+    text-align: center;
+}
+.todolist_addbtn{
+    background-color: rgb(83, 232, 15);
+    color: rgb(226, 239, 235);
+    border: 2px solid rgb(71, 241, 41);
+    border-radius: 8px;
+    width: 50px;
+    height: 26px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.todolist_list-wrapper{
+    margin-top: 15px;
+
+}
+.todolist_rmbtn{
+    padding: 1px 3px 1px 3px;
+    border-radius: 4px;
+    border: 1px solid rgb(71, 241, 41);
+    background-color: rgb(83, 232, 15);
+    color: aliceblue;
+    font-weight: bolder;
+    position: absolute;
+    left: 400px;
+    cursor: pointer;
+}
+.todolist_itemlist{
+    font-size: 20px;
+    margin-left: 5px;
+    color: rgb(62, 216, 34);
+}
+.todolist_checkbox{
+    border-radius: 2px;
+    border: 3px solid rgb(71, 241, 41);
+}
