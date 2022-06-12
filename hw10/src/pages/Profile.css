@@ -1,0 +1,76 @@
+.profilePage_Profile-wrapper{
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 500px;
+    height: 800px;
+    background-color: rgb(154, 173, 190);
+}
+.profilePage_img{
+    margin-left: 38px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(226, 234, 238);
+}
+.profilepage_detail{
+    margin-left: 60px;
+    display: flex;
+    color: rgb(59, 69, 76);
+}
+.profilePage_name{
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.profilePage_username{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.profilePage_id{
+    font-size: 15px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+li{
+    color: rgb(59, 69, 76);
+    word-spacing: 4px;
+    padding-right: 20px;
+}
+.profilePage_followers{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.profilePage_following{
+    margin-left: 70px;
+}
+.profilePage_location{
+    display: flex;
+}
+.profilePage_location-icon{
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 35px;
+    height: 30px;
+}
+.profilePage_location span{
+    margin-left: 10px;
+    margin-top: 26px;
+    color: rgb(59, 69, 76);
+}
+.profilePage_link-icon{
+    width: 26px;
+    height: 26px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.profilePage_link{
+    display: flex;
+}
+.profilePage_link-a{
+    margin-left: 10px;
+    color: rgb(59, 69, 76);
+    text-decoration: none;
+    margin-top: 17px;
+}
