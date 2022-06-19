@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+.post_wrapper{
+    display: flex;
+    width: auto;
+}
+.post_img-wrapper{
+    
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.post_img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+}
+.post_list-wrapper{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.post_user_wrapper{
+    display: flex;
+    width: 400px;
+    height: 70px;
+    border: 1px solid rgb(198, 232, 231);
+
+}
+.post_delete{
+    border-radius: 8px;
+    border: 1px solid rgb(244, 245, 245);
+    background-color: rgb(190, 205, 205);
+    cursor: pointer;
+    font-family: 'Joan', serif;
+    font-size: 16px;
+    height: 35px;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+.post_user_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.post_user_name{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.content_wrapper{
+    border: 1px solid rgb(198, 232, 231);
+    width: 400px;
+    height: 200px;
+
+}
+.content_list{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.function_wrapper{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(198, 232, 231);
+}
+.like_wrapper{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.like_icon{
+    width: 40px;
+    height: 40px;
+}
+.like_number{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.comment_icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.comment_wrapper{
+    border: 1px solid rgb(198, 232, 231);
+    width: 400px;
+    height: 160px;
+}
+.comment_list{
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 5px;
+    overflow-y: scroll;
+}
+.comment_by{
+    float: right;
+    margin-right: 10px;
+}
+.comment_delete{
+    border-radius: 8px;
+    border: 1px solid rgb(244, 245, 245);
+    background-color: rgb(190, 205, 205);
+    cursor: pointer;
+    font-family: 'Joan', serif;
+}
+.comment_input{
+    width: 300px;
+    height: 28px;
+    border-radius: 10px;
+    border: 1px solid rgb(244, 245, 245);
+    background-color: rgb(209, 243, 242);
+    margin-left: 20px;
+    font-family: 'Joan', serif;
+    text-align: center;
+    font-size: 16px;
+}
+.comment_send{
+    width: 60px;
+    height: 28px;
+    border-radius: 8px;
+    border: 1px solid rgb(244, 245, 245);
+    background-color: rgb(190, 205, 205);
+    cursor: pointer;
+    font-family: 'Joan', serif;
+    font-size: 16px;
+}
