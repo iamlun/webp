@@ -1,0 +1,8 @@
+.gotop_wrapper{
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
+.gotop_icon{
+    cursor: pointer;
+}
