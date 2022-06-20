@@ -129,7 +129,6 @@ const Post = () => {
     }
     useEffect(()=>{
         if(editDone){
-            console.log('test');
             handleEdit();
         }
     },[editDone])
